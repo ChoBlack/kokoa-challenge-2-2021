@@ -6,9 +6,31 @@ body {
   height: 100vh;
 }
 
-.center {
-  background-color: thistle;
-  width: 300px;
-  height: 300px;
+.second-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: wheat;
+  width: 250px;
+  height: 250px;
   border: 2px solid black;
+}
+
+.first {
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+}
+.second {
+  width: 200px;
+  height: 50px;
+  background-color: teal;
+}
+
+.third {
+  width: 50px;
+  height: 50px;
+  background-color: teal;
 }
