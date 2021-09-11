@@ -15,22 +15,25 @@ body {
   background-color: wheat;
   width: 250px;
   height: 250px;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 
 .first {
   width: 50px;
   height: 50px;
   background-color: teal;
+  border: 3px solid white;
 }
 .second {
   width: 200px;
   height: 50px;
   background-color: teal;
+  border: 3px dashed white;
 }
 
 .third {
   width: 50px;
   height: 50px;
   background-color: teal;
+  border: 3px solid white;
 }
