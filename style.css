@@ -1,5 +1,7 @@
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: tomato;
 }
 
@@ -7,6 +9,5 @@ body {
   background-color: tan;
   width: 150px;
   height: 150px;
-  justify-content: center;
   border: 2px solid black;
 }
